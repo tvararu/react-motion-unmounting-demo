@@ -8,7 +8,7 @@ export class Box extends Component {
   }
 
   render () {
-    return <div { ...this.props }>{ this.props.children }</div>
+    return <div className='Box' { ...this.props }>{ this.props.children }</div>
   }
 }
 
@@ -31,6 +31,6 @@ export default class Test extends Component {
   }
 
   render () {
-    return <div>{ this.state.boxes.map((val, idx) => <Box key={ idx }>{ val }</Box>) }</div>
+    return <div className='Test'>{ this.state.boxes.map((val, idx) => <Box key={ idx }>{ val }</Box>) }</div>
   }
 }
