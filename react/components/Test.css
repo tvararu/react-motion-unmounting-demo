@@ -14,9 +14,12 @@ body {
 }
 
 .Box {
+  color: white;
   background: #30cd72;
   width: 200px;
   height: 300px;
+  line-height: 300px;
   display: inline-block;
   position: absolute;
+  text-align: center;
 }

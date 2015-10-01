@@ -31,6 +31,8 @@ export default class Test extends Component {
   }
 
   render () {
-    return <div className='Test'>{ this.state.boxes.map((val, idx) => <Box key={ idx }>{ val }</Box>) }</div>
+    return <div className='Test'>{
+      this.state.boxes.map((val, idx) => <Box key={ idx }>{ val }</Box>)
+    }</div>
   }
 }
