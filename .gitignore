@@ -1,0 +1,4 @@
+node_modules
+meteor/react-build-generated
+meteor/public/assets/*.*
+*.log
