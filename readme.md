@@ -4,8 +4,6 @@ A quick demo of the v0.3.0 API of [chenglou/react-motion](https://github.com/che
   <img src="http://zippy.gfycat.com/GlaringUntidyAnnashummingbird.gif" alt="demo gif" />
 </div>
 
-Deployed at http://tvararu-react-motion-demo.meteor.com.
-
 Project boilerplate at  [tvararu/meteor-webpack-react-kickstart](https://github.com/tvararu/meteor-webpack-react-kickstart).
 
 # License
